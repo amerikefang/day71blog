@@ -14,7 +14,7 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 # Optional: add contact me email functionality (Day 60)
 # import smtplib
 
-# FLASK_KEY '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+# FLASK_KEY '8BYk'
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 ckeditor = CKEditor(app)
